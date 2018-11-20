@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RestCalls2</string>
+    <string name="use_nativehttp">Use NativeHttp</string>
+    <string name="use_okhttp_sync">Use OkHTTP Sync</string>
+    <string name="use_okhttp_async">Use OKHttp Async</string>
+    <string name="use_retrofit_sync">Use Retrofit Sync</string>
+    <string name="use_retrofit_async">Use Retrofit Async</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="54sp"/>
+
+    <Button
+            android:id="@+id/btnNativeHttp"
+            android:text="@string/use_nativehttp"
+            style="@style/btnStyle"
+            android:onClick="makeCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnOkHttpSync"
+            android:text="@string/use_okhttp_sync"
+            style="@style/btnStyle"
+            android:onClick="makeCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnOkHttpAsync"
+            android:text="@string/use_okhttp_async"
+            style="@style/btnStyle"
+            android:onClick="makeCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnRetrofitSync"
+            android:text="@string/use_retrofit_sync"
+            style="@style/btnStyle"
+            android:onClick="makeCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnRetrofitAsync"
+            android:text="@string/use_retrofit_async"
+            style="@style/btnStyle"
+            android:onClick="makeCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
